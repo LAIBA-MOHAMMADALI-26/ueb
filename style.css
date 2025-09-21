@@ -88,6 +88,7 @@ body {
 }
 
 .services > h1{
+  font-size: 2.5rem;
   margin-top: 10rem;
   text-align: center;
   color: white;
@@ -99,6 +100,7 @@ body {
   align-items: center;
   /* gap: 5rem; */
   margin-top: 3rem;
+}
 
 .service {
   background-image: url("./assets/Placeholder Gradient.png");
@@ -152,11 +154,48 @@ body {
 
 .line img{
     margin-top: 7rem;
-    margin-bottom: 7rem;
+    margin-bottom: 2rem;
     margin-left: 15rem;
-  width: 70%;
+    width: 70%;
 }
 
+.covered-content{
+}
+.covered-content h1{
+  font-weight: 300;
+  text-align: center;
+  color: white;
+}
+
+.covered-content span{
+  font-weight: 600;
+  color: #CBEA25;
+}
+
+.covered-content h2{
+  font-weight: lighter;
+  text-align: center;
+  color: #9B9B9B;
+}
+.covered{
+  display: flex;
+  justify-content: center;
+  gap:4rem;
+}
+.cover{
+  margin-top: 4rem;
+  color: white;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.cover img{
+  width: 100px;
+}
+
+.cover h2{
+  font-weight: lighter;
+}
 
 /* Large phones: 350–425px */
 @media(max-width: 426px) {
