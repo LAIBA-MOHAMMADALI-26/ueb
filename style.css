@@ -15,7 +15,7 @@ body {
   width: 100%;
   align-items: center;
   gap: 36rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .logo {
@@ -50,19 +50,19 @@ body {
 }
 
 .hero-heading h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .hero-heading h2 {
   letter-spacing: 2px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 200;
   color: #deff2b;
   margin-top: -2.2rem;
 }
 
 .hero-heading h3 {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 300;
   margin-top: 3rem;
   color: #808080;
@@ -98,7 +98,7 @@ body {
 
 /* Service Start */
 .services>h1 {
-  font-size: 2.5rem;
+  font-size: 26px;
   margin-top: 10rem;
   text-align: center;
   color: white;
@@ -106,7 +106,7 @@ body {
 
 .services-card {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin-top: 3rem;
   gap: 2rem;
@@ -115,17 +115,14 @@ body {
 
 .service1-parent,
 .service3-parent {
-  width: 300px;
-  height: 372px;
+  width: 260px;
+  height: 303px;
   border-radius: 12px;
   background: linear-gradient(180deg,
       #0a0a0a,
       #cbea25,
       900%,
       #0a0a0a);
-  /* dark gradient */
-  box-shadow: 0 0 10px #cbea25;
-  /* neon green glow */
   border: 1px solid #1a1a1a;
   display: flex;
   flex-direction: column;
@@ -146,16 +143,14 @@ body {
 }
 
 .service2-parent {
-  width: 300px;
+  width: 240px;
+  height: 300px;
   border-radius: 12px;
   background: linear-gradient(180deg,
       #0a0a0a,
       #cbea25,
       900%,
       #0a0a0a);
-  /* dark gradient */
-  box-shadow: 0 0 10px #cbea25;
-  /* neon green glow */
   border: 1px solid #1a1a1a;
   display: flex;
   flex-direction: column;
@@ -176,7 +171,7 @@ body {
 .service2>h2,
 .service3>h2 {
   margin-top: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 16px;
   font-weight: normal;
   color: #d9d9d9;
 }
@@ -185,7 +180,7 @@ body {
 .service2>p,
 .service3>p {
   margin: 1.5rem 0;
-  font-size: 1.2rem;
+  font-size: 12px;
   font-weight: lighter;
   color: #bfbfbf;
 }
@@ -201,7 +196,7 @@ body {
 .line img {
   margin-top: 7rem;
   margin-bottom: 2rem;
-  margin-left: 10rem;
+  margin-left: 8rem;
   width: 80%;
 }
 
@@ -209,6 +204,7 @@ body {
 
 /* covered started */
 .covered-content h1 {
+  font-size: 26px;
   font-weight: 300;
   text-align: center;
   color: white;
@@ -220,6 +216,7 @@ body {
 }
 
 .covered-content h2 {
+  font-size: 16px;
   font-weight: lighter;
   text-align: center;
   color: #9b9b9b;
@@ -228,7 +225,7 @@ body {
 .covered {
   display: flex;
   justify-content: center;
-  gap: 4rem;
+  gap: 3rem;
 }
 
 .cover {
@@ -236,14 +233,15 @@ body {
   color: white;
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .cover img {
-  width: 100px;
+  width: 60px;
 }
 
 .cover h2 {
+  font-size: 18px;
   font-weight: lighter;
 }
 
@@ -253,18 +251,18 @@ body {
 .mission {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  margin-left: 8rem;
-  width: 85%;
-  height: 290px;
+  margin-left: 10.5rem;
+  width: 74%;
+  height: 185px;
   background: linear-gradient(344deg, #cbea25, black, transparent);
   border: 1px solid #bfbfbf;
   border-radius: 10px;
 }
 
 .vision {
-  margin-left: 8rem;
-  width: 85%;
-  height: 290px;
+  margin-left: 10.5rem;
+  width: 74%;
+  height: 185px;
   background: linear-gradient(19deg, #cbea25, black, transparent);
   border: 1px solid #bfbfbf;
   border-radius: 10px;
@@ -272,7 +270,7 @@ body {
 
 .mission-content,
 .vision-content {
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-left: 3rem;
   padding-right: 2rem;
   display: flex;
@@ -282,6 +280,7 @@ body {
 
 .mission-content h1,
 .vision-content h1 {
+  font-size: 26px;
   color: white;
 }
 
@@ -298,7 +297,7 @@ body {
 
 .mission h2,
 .vision h2 {
-  font-size: xx-large;
+  font-size: 18px;
   font-weight: lighter;
   color: #eaeaea;
   padding: 0 2rem 4rem 3rem;
@@ -309,9 +308,9 @@ body {
 
 /* People Start */
 .people h1 {
-  font-size: 2rem;
+  font-size: 26px;
   margin-top: 2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   text-align: center;
   color: white;
 }
@@ -328,8 +327,8 @@ body {
   padding-left: 2rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  width: 60%;
-  height: 200px;
+  width: 50%;
+  height: 120px;
   margin: 20px auto;
   border: 1px solid #d4ff00;
   /* neon yellow border */
@@ -343,7 +342,7 @@ body {
 }
 
 .personImg img {
-  width: 200px;
+  width: 170px;
 }
 
 .personDetails {
@@ -352,19 +351,18 @@ body {
 }
 
 .personDetails h2 {
-  font-size: 2rem;
+  font-size: 26px;
   margin: 0;
 }
 
 .personDetails h3 {
-  font-size: 1.5rem;
   font-weight: lighter;
   margin-top: 0;
 }
 
 .personDetails ul {
   padding-left: 20px;
-  font-size: x-large;
+  font-size: 16px;
 }
 
 .personDetails ul li {
@@ -376,27 +374,35 @@ body {
   color: #deff2b;
 }
 
+
 .icon2 {
   position: relative;
-  bottom: 5rem;
-  left: 3.5rem;
+  bottom: 3rem;
+  left: 4.5rem;
 }
 
-.icon1,
+.icon1 {
+  position: relative;
+  bottom: 3rem;
+  left: 1.5rem;
+
+}
+
 .icon3 {
   position: relative;
-  bottom: 5rem;
-  left: 1rem;
+  bottom: 3rem;
+  left: 1.5rem;
 }
 
 /* contact start */
 .contact h1 {
+  font-size: 26px;
   text-align: center;
   color: #deff2b;
 }
 
 .contact h2 {
-  font-size: 1.8rem;
+  font-size: 18px;
   text-align: center;
   color: white;
   font-weight: lighter;
@@ -426,7 +432,7 @@ body {
 }
 
 .contact-form label {
-  font-size: x-large;
+  font-size: 20px;
   color: #fff;
 }
 
@@ -479,7 +485,7 @@ footer h1 {
   color: #d6d6d6;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  font-size: x-large;
+  font-size: 20px;
   font-weight: lighter;
 }
 
@@ -491,7 +497,7 @@ footer h1 {
 }
 
 .social-link img {
-  width: 40px;
+  width: 30px;
   height: auto;
   filter: brightness(0) invert(1);
   cursor: pointer;
@@ -505,14 +511,14 @@ footer h1 {
 }
 
 .footer-logo img {
-  width: 120px;
+  width: 100px;
   height: auto;
   filter: brightness(0) invert(1);
 }
 
 footer h2 {
   margin-top: 1.2rem;
-  font-size: large;
+  font-size: 18px;
   text-align: center;
   color: #d6d6d6;
 }
@@ -527,7 +533,7 @@ footer h2 {
 }
 
 /* Large phones: 350–425px */
-@media (max-width: 426px) {
+@media (min-width:425px) and (max-width: 500px) {
   .header {
     margin-left: 30px;
     gap: 3rem;
@@ -576,7 +582,7 @@ footer h2 {
   .line img {
     margin-top: 7rem;
     margin-bottom: 2rem;
-    margin-left: 6rem;
+    margin-left: 5rem;
     width: 100%;
   }
 
@@ -598,12 +604,17 @@ footer h2 {
 
   .mission,
   .vision {
+    margin-left: 9rem;
     height: auto;
   }
 
   .mission-content,
   .vision-content {
     justify-content: center;
+  }
+
+  .mission>h2 {
+    text-align: center;
   }
 
   .mission-line img,
@@ -613,22 +624,28 @@ footer h2 {
   }
 
   .people h1 {
-    margin-left: 11rem;
+    margin-left: 9rem;
   }
 
   .rectangle {
-    width: 100%;
-    height: auto;
-    margin: 21px 4rem;
+    width: 44%;
+    height: 550px;
+    margin: 21px 10rem;
     flex-direction: column;
   }
 
   .icon1,
-  .icon2,
-  .icon3 {
+  .icon2 {
     position: none;
     bottom: 0;
     left: 0;
+
+  }
+
+  .icon3 {
+    position: relative;
+    bottom: 2rem;
+    left: 0rem;
   }
 
   .contact h1 {
@@ -642,7 +659,7 @@ footer h2 {
 
   .contact-form {
     width: 100%;
-    margin-left: 5rem;
+    margin-left: 4rem;
   }
 
   .contact-line img {
@@ -663,198 +680,266 @@ footer h2 {
     display: flex;
     flex-direction: column;
     gap: 0;
-  }}
+  }
+}
 
-  /* Phablet/small tablet: 581–768px */
-  @media (min-width: 581px) and (max-width: 768px) {
-    .header {
-      gap: 5rem;
-    }
+/* Phablet/small tablet: 581–768px */
+@media (min-width: 500px) and (max-width: 768px) {
+  .header {
+    gap: 5rem;
+  }
 
-    .hero-heading h1 {
-      font-size: 35px;
-    }
+  .logo {
+    width: 180px;
+  }
 
-    .hero-heading h2 {
-      font-size: 26px;
-      margin-top: -1.2rem;
-    }
+  .menu ul {
+    gap: 3rem;
+    font-size: 16px;
+  }
 
-    .hero-heading h3 {
-      font-size: 20px;
-    }
+  .hero-heading h1 {
+    font-size: 26px;
+  }
 
-    .hero-img img {
-      width: 370px;
-    }
+  .hero-heading h2 {
+    font-size: 16px;
+    margin-top: -1.2rem;
+  }
 
-    .cta-btn {
-      font-size: 16px;
-      padding: 12px 30px;
-    }
+  .hero-heading h3 {
+    font-size: 14px;
+  }
 
-    .services h1 {
-      font-size: 2rem;
-    }
+  .hero-img img {
+    width: 370px;
+  }
 
-    .services-card {
-      flex-wrap: wrap;
-    }
+  .cta-btn {
+    font-size: 16px;
+    padding: 12px 30px;
+  }
 
-    .service1-parent {
-      width: 254px;
-    }
+  .services h1 {
+    font-size: 20px;
+  }
 
-    .service2-parent {
-      width: 256px;
-    }
+  .services-card {
+    flex-wrap: wrap;
+  }
 
-    .service3-parent {
-      width: 261px;
-    }
+  .service1-parent,
+  .service3-parent {
+    width: 163px;
+  }
 
-    .line img {
-      margin-left: 5rem;
-    }
+  .service2-parent {
+    width: 163px;
+  }
 
-    .covered-content h1 {
-      font-size: x-large;
-    }
+  .line img {
+    margin-left: 5rem;
+  }
 
-    .covered-content h2 {
-      font-size: larger;
-    }
+  .covered-content h1 {
+    font-size: 20px;
+  }
 
-    .cover img {
-      width: 78px;
-    }
+  .covered-content h2 {
+    font-size: 14px;
+  }
 
-    .cover h2 {
-      font-size: large;
-    }
+  .cover img {
+    width: 50px;
+  }
 
-    .mission,
-    .vision {
-      margin-left: 5rem;
-      width: 80%;
-      height: 255px;
-    }
+  .cover h2 {
+    font-size: 14px;
+  }
 
-    .mission h2,
-    .vision h2 {
-      font-size: larger;
-    }
+  .mission,
+  .vision {
+    margin-left: 12rem;
+    width: 50%;
+    height: 220px;
+  }
 
-    .people>h1 {
-      font-size: 1.2rem;
-      margin-bottom: 3rem;
-    }
+  .mission-line img,
+  .vision-line img {
+    margin-left: 1.5rem;
+  }
 
-    .rectangle {
-      width: 80%;
-    }
+  .mission h2,
+  .vision h2 {
+    font-size: 16px;
+  }
 
-    .personDetails h2 {
-      font-size: 1.5rem;
-    }
+  .people>h1 {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
 
-    .personDetails h3 {
-      font-size: 1rem;
-    }
+  .rectangle {
+    width: 70%;
+    padding-left: 1rem;
+  }
 
-    .personDetails ul {
-      font-size: large;
-    }
+  .personDetails h2 {
+    font-size: 16px;
+  }
 
+  .icon1 img,
+  .icon2 img,
+  .icon3 img {
+    width: 45px;
+  }
+
+  .icon2 {
+    left: 1.5rem;
+  }
+
+  .contact h1 {
+    font-size: 20px;
+  }
+
+  .contact h2 {
+    font-size: 16px;
+  }
+
+  .contact-line img {
+    margin-left: 5rem;
+  }
+
+  .term-and-condition {
+    gap: 2rem;
+  }
+}
+
+
+/* Tablet: 905–1440px */
+@media (min-width: 905px) and (max-width: 1024px) {
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    gap: 15rem;
+    margin-top: 2rem;
+  }
+
+  .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+  }
+
+  .hero-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    margin-left: 10%;
+  }
+
+  .hero-heading h1 {
+    font-size: 32px;
+  }
+
+  .hero-heading h2 {
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #deff2b;
+    margin-top: -1.5rem;
+  }
+
+  .hero-heading h3 {
+    font-size: 16px;
+  }
+
+  .hero-img img {
+    width: 410px;
+    height: auto;
+  }
+
+  .services>h1 {
+    font-size: 22px;
+  }
+
+  .services-card {
+    flex-wrap: wrap;
+  }
+
+  .service1-parent,
+  .service3-parent {
+    width: 200px;
+  }
+
+  .service2-parent {
+    width: 210px;
+  }
+
+  .service1 h1,
+  .service2 h1,
+  .service3 h1 {
+    font-size: 24px;
+  }
+
+  .line img {
+    width: 75%;
+  }
+
+  .covered-content h1 {
+    font-size: 22px;
+  }
+  .cover h2 {
+    font-size: 16px;}
+
+  .mission {
+    margin-left: 10rem;
+    height: 185px;
+    width: 70%;
+  }
+
+  .vision {
+    margin-left: 10rem;
+    height: 185px;
+    width: 70% ;
+  }
+
+  .mission-content {
+    padding-top: 1rem;
+  }
+
+  .people h1 {
+    font-size: 22px;
+  }
+
+  .rectangle {
+    width: 61%;
+  }
+
+  .personDetails h2 {
+    font-size: 22px;}
     .icon2 {
-      left: 1rem;
+      left: 1.5rem;
     }
-
+    
     .contact h1 {
-      font-size: x-large;
+      font-size: 22px;}
+    .contact-form{
+      width: 74%; 
     }
+  .term-and-condition {
+    gap: 11rem;
+  }
+}
 
-    .contact h2 {
-      font-size: 1.5rem;
-    }
-
-    .contact-line img {
-      margin-left: 5rem;
-    }
-
-    .term-and-condition {
-      gap: 2rem;
-    }}
-
-
-    /* Tablet: 905–1440px */
-    @media (min-width: 905px) and (max-width: 1024px) {
-      .header {
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-        align-items: center;
-        gap: 15rem;
-        margin-top: 4rem;
-      }
-
-      .menu ul {
-        list-style: none;
-        display: flex;
-        gap: 5rem;
-        font-size: 20px;
-        font-weight: 500;
-        color: white;
-      }
-
-      .hero-content {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        color: white;
-        margin-left: 10%;
-      }
-
-      .hero-img img {
-        width: 450px;
-        height: auto;
-      }
-
-      .services-card {
-        flex-wrap: wrap;
-      }
-
-      .line img {
-        width: 70%;
-      }
-
-      .mission {
-        margin-left: 5rem;
-        height: 306px;
-      }
-
-      .vision {
-        margin-left: 5rem;
-        height: 320px;
-      }
-
-      .mission-content {
-        padding-top: 1rem;
-      }
-
-      .people h1 {
-        font-size: 1.5rem;
-      }
-
-      .rectangle {
-        width: 80%;
-      }
-
-      .icon2 {
-        left: 1.2rem;
-      }
-
-      .term-and-condition {
-        gap: 11rem;
-      }
-    }
+/* Laptops: 1025–1440px */
+@media (min-width: 1025px) and (max-width: 1440px) {
+.icon2{
+left: 6.5rem;
+}}
