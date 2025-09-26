@@ -662,6 +662,9 @@ footer h2 {
     margin-left: 4rem;
   }
 
+  .contact-form button{
+    padding: 14px 22px;
+  }
   .contact-line img {
     margin-top: 4rem;
     margin-bottom: 2rem;
