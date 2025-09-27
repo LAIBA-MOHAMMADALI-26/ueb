@@ -532,6 +532,105 @@ footer h2 {
   text-decoration-color: #d6d6d6;
 }
 
+@media (max-width:376px) {
+
+  .header {
+    margin-left: 2rem !important;
+    gap: 3rem !important;
+  }
+
+  .hero-content {
+    flex-direction: column-reverse;
+    margin-left: 55%;
+  }
+
+  .hero-btn {
+    width: 100%;
+    margin-left: 5rem;
+  }
+
+  .services>h1 {
+    width: 100%;
+    margin-left: 6rem;
+  }
+
+  .services-card {
+    flex-direction: column;
+    margin-left: 12rem;
+  }
+
+  .covered-content h1 {
+    width: 100%;
+    margin-left: 6rem;
+  }
+
+  .covered-content h2 {
+    width: 100%;
+    margin-left: 6rem;
+  }
+
+  .covered {
+    margin-left: 12rem;
+    flex-direction: column;
+  }
+
+  .mission , .vision{
+    margin-left: 9.5rem;
+    height: 360px;
+  }
+
+  .people h1 {
+    width: 100%;
+    margin-left: 6rem;}
+
+  .rectangle {
+    width: 50%;
+    height: 550px;
+    margin: 21px 10rem;
+    flex-direction: column;
+  }
+
+  .icon1,
+  .icon2 {
+    position: none;
+    bottom: 0;
+    left: 0;
+
+  }
+
+  .icon3 {
+    position: relative;
+    bottom: 2rem;
+    left: 0rem;
+  }
+
+  .contact h1{
+    width: 100%;
+    margin-left: 6rem;
+  }
+
+  .contact-form {
+    width: 85%;
+    margin-left: 6.5rem;}
+
+  .contact h2 {
+    width: 100%;
+    margin-left: 6rem;}
+
+  footer+{
+    width: 100%;
+    margin-left: 6rem;
+  }
+  .term-and-condition{
+    flex-direction: column;
+    gap: 0;
+  }
+  .contact-form button {
+    
+    padding: 15px 40px;
+    }
+}
+
 /* Large phones: 350–425px */
 @media (min-width:425px) and (max-width: 500px) {
   .header {
@@ -662,9 +761,10 @@ footer h2 {
     margin-left: 4rem;
   }
 
-  .contact-form button{
+  .contact-form button {
     padding: 14px 22px;
   }
+
   .contact-line img {
     margin-top: 4rem;
     margin-bottom: 2rem;
@@ -898,8 +998,10 @@ footer h2 {
   .covered-content h1 {
     font-size: 22px;
   }
+
   .cover h2 {
-    font-size: 16px;}
+    font-size: 16px;
+  }
 
   .mission {
     margin-left: 10rem;
@@ -910,7 +1012,7 @@ footer h2 {
   .vision {
     margin-left: 10rem;
     height: 185px;
-    width: 70% ;
+    width: 70%;
   }
 
   .mission-content {
@@ -926,16 +1028,21 @@ footer h2 {
   }
 
   .personDetails h2 {
-    font-size: 22px;}
-    .icon2 {
-      left: 1.5rem;
-    }
-    
-    .contact h1 {
-      font-size: 22px;}
-    .contact-form{
-      width: 74%; 
-    }
+    font-size: 22px;
+  }
+
+  .icon2 {
+    left: 1.5rem;
+  }
+
+  .contact h1 {
+    font-size: 22px;
+  }
+
+  .contact-form {
+    width: 74%;
+  }
+
   .term-and-condition {
     gap: 11rem;
   }
@@ -943,6 +1050,7 @@ footer h2 {
 
 /* Laptops: 1025–1440px */
 @media (min-width: 1025px) and (max-width: 1440px) {
-.icon2{
-left: 6.5rem;
-}}
+  .icon2 {
+    left: 6.5rem;
+  }
+}
