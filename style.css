@@ -532,7 +532,7 @@ footer h2 {
   text-decoration-color: #d6d6d6;
 }
 
-@media (max-width:376px) {
+@media (min-width:370px) and (max-width:424px) {
 
   .header {
     margin-left: 2rem !important;
@@ -541,12 +541,12 @@ footer h2 {
 
   .hero-content {
     flex-direction: column-reverse;
-    margin-left: 55%;
+    margin-left: 45%;
   }
 
   .hero-btn {
     width: 100%;
-    margin-left: 5rem;
+    margin-left: 6rem;
   }
 
   .services>h1 {
@@ -574,14 +574,16 @@ footer h2 {
     flex-direction: column;
   }
 
-  .mission , .vision{
+  .mission,
+  .vision {
     margin-left: 9.5rem;
     height: 360px;
   }
 
   .people h1 {
     width: 100%;
-    margin-left: 6rem;}
+    margin-left: 6rem;
+  }
 
   .rectangle {
     width: 50%;
@@ -604,31 +606,35 @@ footer h2 {
     left: 0rem;
   }
 
-  .contact h1{
+  .contact h1 {
     width: 100%;
     margin-left: 6rem;
   }
 
   .contact-form {
     width: 85%;
-    margin-left: 6.5rem;}
+    margin-left: 6.5rem;
+  }
 
   .contact h2 {
     width: 100%;
-    margin-left: 6rem;}
+    margin-left: 6rem;
+  }
 
-  footer+{
+  footer {
     width: 100%;
     margin-left: 6rem;
   }
-  .term-and-condition{
+
+  .term-and-condition {
     flex-direction: column;
     gap: 0;
   }
+
   .contact-form button {
-    
+
     padding: 15px 40px;
-    }
+  }
 }
 
 /* Large phones: 350–425px */
